@@ -1,0 +1,315 @@
+:root {
+  font-family: '华文细黑', '微软雅黑', PingFangSC-Regular, Chinese Quote, PingFang SC,
+  Microsoft YaHei, source-han-sans, simhei, Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+
+  --el-color-primary: #0071e3 !important;
+  --el-color-primary-light-3: #0071e3 !important;
+}
+
+html {
+  height: 100vh;
+  background-color: aqua;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-color: burlywood;
+  min-height: 768px;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #353535;
+
+  &:hover {
+    color: #353535;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: #353535;
+    text-decoration: none;
+  }
+}
+
+table {
+  border: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  tr {
+    th,
+    td {
+      padding: 0;
+      margin: 0;
+    }
+
+    td {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
+}
+
+form {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  textarea {
+    min-width: 25rem;
+    height: 5rem;
+    border: 1px solid #d8d8d8;
+    padding: 0.5rem 1rem;
+  }
+
+  input[type='text'],
+  input[type='password'] {
+    padding: 0 0.5rem;
+
+    &:focus-visible {
+      outline: 0;
+    }
+  }
+
+  .form-group {
+    .validation {
+      abbr {
+        color: red;
+      }
+    }
+  }
+
+  .form-control:focus {
+    box-shadow: none !important;
+  }
+}
+
+// 测试盒子
+.box {
+  box-sizing: border-box;
+  border: 1px solid #696969;
+  background-color: #696969;
+
+  &.red {
+    background-color: red;
+    border: 1px solid red;
+  }
+
+  &.blue {
+    background-color: blue;
+    border: 1px solid blue;
+  }
+
+  &.green {
+    background-color: green;
+    border: 1px solid green;
+  }
+
+  &.yellow {
+    background-color: yellow;
+    border: 1px solid yellow;
+  }
+}
+
+/*layouts*/
+// 布局
+// flex布局和行布局
+.flex,
+.row-el {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.row-el,
+.col-el {
+  padding: 0;
+  margin: 0;
+}
+
+// flex列布局
+.flex-col {
+  flex-flow: column;
+}
+
+// flex垂直居中
+.flex-center {
+  align-items: center;
+}
+
+// flex响应式容器
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// 使内容水平居中 + 垂直居中
+.v-align-items,
+.center-and-middle,
+.align-items-center-justify-content-space-evenly {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+// flex两端对齐
+.flex-justified,
+.flex-justify-space-between {
+  justify-content: space-between;
+}
+
+// flex平均对齐
+.flex-justify-space-evenly {
+  justify-content: space-evenly;
+}
+
+// 定宽居中
+.centered {
+  margin: 0 auto;
+}
+
+// 水平居中
+.text-center {
+  text-align: center;
+}
+
+// 向右浮动
+.pull-right {
+  float: right;
+}
+
+// 向左浮动
+.pull-left {
+  float: left;
+}
+
+.of-y {
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.of-x {
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+// 间距预设
+.ml1x {
+  margin-left: 10px;
+}
+
+.mr1x {
+  margin-right: 10px;
+}
+
+.mt1x {
+  margin-top: 10px;
+}
+
+.mb1x {
+  margin-bottom: 10px;
+}
+
+.m1x {
+  margin: 10px;
+}
+
+.ml2x {
+  margin-left: 20px;
+}
+
+.mr2x {
+  margin-right: 20px;
+}
+
+.mt2x {
+  margin-top: 20px;
+}
+
+.mb2x {
+  margin-bottom: 20px;
+}
+
+.m2x {
+  margin: 20px;
+}
+
+.p1x {
+  padding: 10px;
+}
+
+.p2x {
+  padding: 20px;
+}
+
+._100 {
+  width: 100% !important;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.w-100 {
+  width: 100px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-300 {
+  width: 300px;
+}
