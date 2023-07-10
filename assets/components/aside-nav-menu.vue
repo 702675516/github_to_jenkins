@@ -9,7 +9,7 @@ const navList = ref([
 <template lang="pug">
 nav.aside-nav
   .aside-nav-logo
-    span logo
+
   .aside-nav-list
     ul
       li(v-for="item in navList" :key="item") 
@@ -32,7 +32,7 @@ nav.aside-nav
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: palevioletred;
+    background: url("assets/images/230702_星魅网站页面 UPdate-07.png");
   }
 
   &-list {

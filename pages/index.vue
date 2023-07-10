@@ -1,13 +1,12 @@
 <template>
   <div class="container">
-    <img src="@/assets/images/background.jpeg" alt="Background" class="background-image">
+<!--    <img src="@/assets/images/background.jpeg" alt="Background" class="background-image">-->
     <!-- 其他内容 -->
     <aside-nav-menu/>
     <HomePage/>
     <MiddlePage/>
     <MiddlePipeline/>
     <FooterPage/>
-    
   </div>
 </template>
 
@@ -45,7 +44,6 @@ import FooterPage from "assets/components/footer-page.vue"
   position: relative;
   width: 1600px;
   margin: 0 auto;
-  border: 1px solid black;
 }
 
 .background-image {
