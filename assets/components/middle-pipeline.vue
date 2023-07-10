@@ -1,5 +1,5 @@
 <template lang="pug">
-.middle 
+.pipeline#pipeline
 </template>
 
 
@@ -7,10 +7,10 @@
 </script>
 
 <style scoped lang="scss">
-.middle{
+.pipeline{
     width: 100%;
-    height: 2400px;
+    height: 2560px;
     background: white;
-    border: 1px solid red;
+    border: 1px solid green;
 }
 </style>

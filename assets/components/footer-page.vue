@@ -1,5 +1,5 @@
 <template lang="pug">
-footer.footer 
+footer.footer#footer
  .footer-header
     .footer-header-one
         ul

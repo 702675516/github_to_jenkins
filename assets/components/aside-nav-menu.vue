@@ -1,8 +1,8 @@
 <script setup>
 const navList = ref([
-  { list: "公司简介" },
-  { list: "研发管线" },
-  { list: "联系方式" },
+  { list: "公司简介",md: 'home' },
+  { list: "研发管线",md: 'pipeline' },
+  { list: "联系方式",md: 'footer' },
 ]);
 </script>
 
@@ -13,7 +13,7 @@ nav.aside-nav
   .aside-nav-list
     ul
       li(v-for="item in navList" :key="item") 
-        a(href="#") {{item.list}}
+        a(:href="`#${item.md}`") {{item.list}}
       
 </template>
 
@@ -22,7 +22,6 @@ nav.aside-nav
   position: fixed;
   z-index: 999;
   height: 100vh;
-  width: 140px;
   width: 210px;
   top: 50%;
   transform: translate(0, -50%);

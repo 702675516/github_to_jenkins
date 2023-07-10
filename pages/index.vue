@@ -5,27 +5,42 @@
     <aside-nav-menu/>
     <HomePage/>
     <MiddlePage/>
-    <MiddleDoublePage/>
+    <MiddlePipeline/>
     <FooterPage/>
     
   </div>
 </template>
 
 <script>
-import AsideNavMenu from "@/layouts/aside-nav-menu.vue"
-import HomePage from "@/layouts/home-page.vue"
-import MiddlePage from "@/layouts/middle-page.vue"
-import MiddleDoublePage from "@/layouts/middle-double-page.vue"
-import FooterPage from "@/layouts/footer-page.vue"
-
+import AsideNavMenu from "assets/components/aside-nav-menu.vue"
+import HomePage from "assets/components/home-page.vue"
+import MiddlePage from "assets/components/middle-page.vue"
+import MiddlePipeline from "assets/components/middle-pipeline.vue"
+import FooterPage from "assets/components/footer-page.vue"
   export default{
     components:{
-      AsideNavMenu,HomePage,MiddlePage,MiddleDoublePage,FooterPage
+      AsideNavMenu,HomePage,MiddlePage,MiddlePipeline,FooterPage
+    },
+    head: {
+      title: 'New',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'SEO'
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'A, B'
+        },
+      ]
     }
   }
 </script>
 
 <style scoped lang="scss">
+
 .container {
   position: relative;
   width: 1600px;

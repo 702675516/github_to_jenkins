@@ -3,12 +3,12 @@
 </script>
 
 <template lang="pug">
-.homePage 
+.homePage#home
     
 </template>
 
 <style scoped lang="scss">
-@import '@/assets/main.scss';
+@import 'assets/main';
 
 .homePage{
     width: 100%;

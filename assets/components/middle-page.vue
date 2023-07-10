@@ -1,5 +1,5 @@
 <template lang="pug">
-.middle 
+.middle-page
 </template>
 
 
@@ -7,10 +7,10 @@
 </script>
 
 <style scoped lang="scss">
-.middle{
+.middle-page{
     width: 100%;
-    height: 2560px;
+    height: 2400px;
     background: white;
-    border: 1px solid green;
+    border: 1px solid red;
 }
 </style>

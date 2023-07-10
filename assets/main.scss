@@ -5,4 +5,13 @@ body{
 
 :root{
     background-color: white;
+    font-family: 'newFont', sans-serif;
+}
+
+@font-face {
+    font-family: 'newFont';
+    src: url('assets/font/上首时尚体.TTF') format('woff2'),
+    url('assets/font/上首时尚体.TTF') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
