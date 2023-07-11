@@ -1,7 +1,7 @@
 <template lang="pug">
 .pipeline#pipeline
   .pipeline-top
-    img(src="../../assets/images/230702_星魅网站页面 UPdate-05.png")
+    img(src="../../assets/images/230702_星魅网站页面-UPdate-05.png")
     .pipeline-top-info
       ul
         li RZL-012属于小分子创新药,直接注射
@@ -10,7 +10,7 @@
         li 治疗,85%以上的人可达到明显颏下减
         li 脂效果。
   .pipeline-btm
-    img(src="../../assets/images/230702_星魅网站页面 UPdate-06.png")
+    img(src="../../assets/images/230702_星魅网站页面-UPdate-06.png")
     .pipeline-btm-info
       ul
         li JS-002为特殊的靶向药物,在

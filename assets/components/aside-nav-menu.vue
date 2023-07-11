@@ -1,6 +1,7 @@
 <template lang="pug">
 nav.aside-nav
   .aside-nav-logo
+   img(src="../images/230702_星魅网站页面-UPdate-07.png")
   .aside-nav-list
     ul
       li(v-for="item in navList" :key="item")
@@ -26,12 +27,9 @@ const navList = ref([
   color: black;
 
   &-logo {
-    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("assets/images/230702_星魅网站页面 UPdate-07.png");
-    background-size: cover;
   }
 
   &-list {

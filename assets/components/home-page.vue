@@ -9,7 +9,7 @@ export default {
 
 <template lang="pug">
 .homePage#home
-  img(src="../../assets/images/230702_星魅网站页面 UPdate-02.png")
+  img(src="../../assets/images/230702_星魅网站页面-UPdate-02.png")
   .homePage-info
     ul
       li 天津星魅生物科技有限公司由复星医药旗下的复健资本和天津港

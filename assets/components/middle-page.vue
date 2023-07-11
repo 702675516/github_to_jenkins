@@ -1,7 +1,7 @@
 <template lang="pug">
 .middle-page
   .middle-page-top
-    img(src="../../assets/images/230702_星魅网站页面 UPdate-03.png")
+    img(src="../../assets/images/230702_星魅网站页面-UPdate-03.png")
     .middle-page-box
       h1.middle-page-top-title 34年医药行业经验
       ul
@@ -24,7 +24,7 @@
       ul
         li 拓展业务和投融资
         li 兼任复星集团天津副首代
-  img(src="../../assets/images/230702_星魅网站页面 UPdate-04.png")
+  img(src="../../assets/images/230702_星魅网站页面-UPdate-04.png")
 </template>
 
 
