@@ -1,11 +1,9 @@
-<template>
-  <div class="container">
-    <aside-nav-menu/>
-    <HomePage/>
-    <MiddlePage/>
-    <MiddlePipeline/>
-    <FooterPage/>
-  </div>
+<template lang="pug">
+.container
+  aside-nav-menu
+  HomePage
+  MiddlePage
+  MiddlePipeline
 </template>
 
 <script>
@@ -13,10 +11,9 @@ import AsideNavMenu from "assets/components/aside-nav-menu.vue"
 import HomePage from "assets/components/home-page.vue"
 import MiddlePage from "assets/components/middle-page.vue"
 import MiddlePipeline from "assets/components/middle-pipeline.vue"
-import FooterPage from "assets/components/footer-page.vue"
   export default{
     components:{
-      AsideNavMenu,HomePage,MiddlePage,MiddlePipeline,FooterPage
+      AsideNavMenu,HomePage,MiddlePage,MiddlePipeline
     },
     head: {
       title: 'New',
@@ -40,7 +37,9 @@ import FooterPage from "assets/components/footer-page.vue"
 
 .container {
   position: relative;
-  width: 1600px;
+  min-width: 1000px;
+  width: 100%;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -52,5 +51,13 @@ import FooterPage from "assets/components/footer-page.vue"
   position: absolute;
   top:0 ;
   z-index: 1;
+
+}
+@media screen and (max-width: 1600px) and (min-width: 1024px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+
+  }
 }
 </style>

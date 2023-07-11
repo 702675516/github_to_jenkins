@@ -1,6 +1,7 @@
 <template lang="pug">
 .middle-page
   .middle-page-top
+    img(src="../../assets/images/230702_星魅网站页面 UPdate-03.png")
     .middle-page-box
       h1.middle-page-top-title 34年医药行业经验
       ul
@@ -23,17 +24,14 @@
       ul
         li 拓展业务和投融资
         li 兼任复星集团天津副首代
-  .middle-page-btm
+  img(src="../../assets/images/230702_星魅网站页面 UPdate-04.png")
 </template>
-
-
 
 
 <script>
 export default {
   data() {
-    return {
-    }
+    return {}
   }
 }
 </script>
@@ -41,43 +39,100 @@ export default {
 <style scoped lang="scss">
 .middle-page {
   width: 100%;
-  height: 2400px;
   background: white;
+  position: relative;
 
-  &-top{
-    height: 828px;
-    background: url("assets/images/230702_星魅网站页面 UPdate-03.png");
-    color: black;
+  & > img {
+    width: 100%;
+  }
+
+  &-top {
     position: relative;
+    color: black;
 
-    &-title{
-      font-size: 20px;
+    & > img {
+      width: 100%;
     }
 
 
+    &-title {
+      font-size: 16px;
+    }
   }
 
-  &-box{
-    left: 18%;
-    top: 34.5%;
+  &-box {
+    left: 290px;
+    top: 290px;
     position: absolute;
+    & > ul {
+      margin-top: 15px;
+    }
   }
 
-  &-box-2{
-    left: 51.8%;
-    top: 34.5%;
+  &-box-2 {
+    left: 830px;
+    top: 290px;
     position: absolute;
+    & > ul {
+      margin-top: 15px;
+    }
   }
 
-  &-box-3{
-    left: 80.3%;
-    top: 34.5%;
+  &-box-3 {
+    left: 1280px;
+    top: 290px;
     position: absolute;
-  }
 
-  &-btm{
-    height: 1579px;
-    background: url("assets/images/230702_星魅网站页面 UPdate-04.png");
+    & > ul {
+      margin-top: 15px;
+    }
   }
+}
+
+.middle-page-box {
+
+
+
+  & > li {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1600px) and (min-width: 1024px) {
+
+  .middle-page {
+    &-box {
+      left: 18%;
+      top: 33%;
+    }
+
+    &-box-2 {
+      left: 52%;
+      top: 33%;
+    }
+
+    &-box-3 {
+      left: 80%;
+      top: 33%;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px){
+ .middle-page {
+   &-box {
+     left: 18%;
+     top: 33%;
+   }
+
+   &-box-2 {
+     left: 52%;
+     top: 33%;
+   }
+
+   &-box-3 {
+     left: 80%;
+     top: 33%;
+   }
+ }
 }
 </style>

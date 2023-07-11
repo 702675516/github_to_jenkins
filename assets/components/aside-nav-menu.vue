@@ -18,11 +18,11 @@ const navList = ref([
 <style scoped lang="scss">
 .aside-nav {
   position: fixed;
+  transform: translate(0,-50%);
   z-index: 999;
   height: 100vh;
   width: 210px;
   top: 50%;
-  transform: translate(0, -50%);
   color: black;
 
   &-logo {
@@ -31,6 +31,7 @@ const navList = ref([
     align-items: center;
     justify-content: center;
     background: url("assets/images/230702_星魅网站页面 UPdate-07.png");
+    background-size: cover;
   }
 
   &-list {

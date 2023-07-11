@@ -1,9 +1,15 @@
-<script setup lang="ts">
+<script>
 
+export default {
+  components: {
+
+  }
+}
 </script>
 
 <template lang="pug">
 .homePage#home
+  img(src="../../assets/images/230702_星魅网站页面 UPdate-02.png")
   .homePage-info
     ul
       li 天津星魅生物科技有限公司由复星医药旗下的复健资本和天津港
@@ -22,20 +28,45 @@
 
 .homePage{
     width: 100%;
-    height: 1830px;
     position: relative;
-    background: url("@/assets/images/230702_星魅网站页面 UPdate-02.png");
-
+  & > img{
+    width: 100%;
+  }
 
   &-info{
     position: absolute;
     font-size: 19px;
     font-weight: bolder;
-    top: 28%;
-    left: 22.5%;
+    top: 520px;
+    left: 360px;
+
 
     ul:nth-child(1){
       margin-bottom: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1024px) {
+
+  .homePage {
+
+    &-info {
+      font-size: 1.2vw;
+      top: 28%;
+      left: 22.5%;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .homePage {
+
+    &-info {
+      font-size: 1.2vw;
+      top: 28%;
+      left: 22.5%;
     }
   }
 }
