@@ -1,7 +1,7 @@
 <template lang="pug">
 .middle-page
   .middle-page-top
-    img(src="../../assets/images/230702_星魅网站页面-UPdate-03.png")
+    img(src="../../assets/images/230702_星魅网站页面-UPdate-02.jpg")
     .middle-page-box
       h1.middle-page-top-title 34年医药行业经验
       ul
@@ -52,47 +52,35 @@ export default {
 
     & > img {
       width: 100%;
+      height: 100%;
     }
-
 
     &-title {
       font-size: 16px;
+      margin: 0;
     }
   }
 
   &-box {
-    left: 290px;
-    top: 290px;
+    left: 543px;
+    top: 205px;
     position: absolute;
-    & > ul {
-      margin-top: 15px;
-    }
   }
 
   &-box-2 {
-    left: 830px;
-    top: 290px;
+    left: 543px;
+    top: 510px;
     position: absolute;
-    & > ul {
-      margin-top: 15px;
-    }
   }
 
   &-box-3 {
-    left: 1280px;
-    top: 290px;
+    left: 1015px;
+    top: 510px;
     position: absolute;
-
-    & > ul {
-      margin-top: 15px;
-    }
   }
 }
 
 .middle-page-box {
-
-
-
   & > li {
     font-size: 12px;
   }
@@ -101,38 +89,38 @@ export default {
 
   .middle-page {
     &-box {
-      left: 18%;
-      top: 33%;
+      left: 34%;
+      top: 24%;
     }
 
     &-box-2 {
-      left: 52%;
-      top: 33%;
+      left: 34%;
+      top: 60.5%;
     }
 
     &-box-3 {
-      left: 80%;
-      top: 33%;
+      left: 63.5%;
+      top: 60.5%;
     }
   }
 }
 
 @media screen and (max-width: 1024px){
- .middle-page {
-   &-box {
-     left: 18%;
-     top: 33%;
-   }
+  .middle-page {
+    &-box {
+      left: 34%;
+      top: 23%;
+    }
 
-   &-box-2 {
-     left: 52%;
-     top: 33%;
-   }
+    &-box-2 {
+      left: 34%;
+      top: 59.5%;
+    }
 
-   &-box-3 {
-     left: 80%;
-     top: 33%;
-   }
- }
+    &-box-3 {
+      left: 63.5%;
+      top: 59.5%;
+    }
+  }
 }
 </style>

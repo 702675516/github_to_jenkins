@@ -1,15 +1,8 @@
-<script>
 
-export default {
-  components: {
-
-  }
-}
-</script>
 
 <template lang="pug">
 .homePage#home
-  img(src="../../assets/images/230702_星魅网站页面-UPdate-02.png")
+  img(src="../../assets/images/230702_星魅网站页面-UPdate-03.jpg")
   .homePage-info
     ul
       li.homePage-info-li 天津星魅生物科技有限公司由复星医药旗下的复健资本和天津港
@@ -19,9 +12,11 @@ export default {
       li.homePage-info-li 我们追逐世界前沿技术,为求美者提供最佳的减脂、增肌、塑性、抗
       li.homePage-info-li 衰的方案,创造健康美丽生活。我们秉持诚信、安全和负责的态度
       li 为客户提供可靠的优质产品。
-
-
 </template>
+
+<script>
+
+</script>
 
 <style scoped lang="scss">
 @import 'assets/main';
