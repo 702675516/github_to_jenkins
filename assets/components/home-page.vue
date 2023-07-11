@@ -1,7 +1,7 @@
 <template lang="pug">
-.home-page#home
-  img(src="../../assets/images/230702_星魅网站页面-UPdate-03.jpg")
-  .home-page-info
+.homePage#home
+  img(src="../../assets/images/230702_星魅网站页面-UPdate-03.png", alt="美丽、科学、健康")
+  .homePage-info
     ul
       li.home-page-info-text 天津星魅生物科技有限公司由复星医药旗下的复健资本和天津港
       li.home-page-info-text 保税区共同创立,利用产业基金和项目孵化的模式,致力于医美和
@@ -12,9 +12,7 @@
       li 为客户提供可靠的优质产品。
 </template>
 
-<script>
-
-</script>
+<script></script>
 
 <style scoped lang="scss">
 @import 'assets/css/home-page';
