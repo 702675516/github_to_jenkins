@@ -25,7 +25,6 @@
     width: 100%;
     height: 2560px;
     background: white;
-    border: 1px solid green;
 
   &-top{
     background: url("assets/images/230702_星魅网站页面 UPdate-05.png");

@@ -72,14 +72,12 @@ footer.footer#footer
       top: 75%;
       height: 195px;
       width: 210px;
-      background: url("assets/images/230702_星魅网站页面 UPdate-07.png");
 
     }
   }
 
   &-bottom {
     height: 110px;
-    background-color: green;
     display: flex;
     justify-content: flex-end;
     align-items: center;

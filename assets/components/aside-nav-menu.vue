@@ -1,3 +1,12 @@
+<template lang="pug">
+nav.aside-nav
+  .aside-nav-logo
+  .aside-nav-list
+    ul
+      li(v-for="item in navList" :key="item")
+        a(:href="`#${item.md}`") {{item.list}}
+</template>
+
 <script setup>
 const navList = ref([
   { list: "公司简介",md: 'home' },
@@ -5,17 +14,6 @@ const navList = ref([
   { list: "联系方式",md: 'footer' },
 ]);
 </script>
-
-<template lang="pug">
-nav.aside-nav
-  .aside-nav-logo
-
-  .aside-nav-list
-    ul
-      li(v-for="item in navList" :key="item") 
-        a(:href="`#${item.md}`") {{item.list}}
-      
-</template>
 
 <style scoped lang="scss">
 .aside-nav {
@@ -41,7 +39,7 @@ nav.aside-nav
     height: 100%;
     font-weight: bolder;
     letter-spacing: 0.2rem;
-    background-color: oldlace;
+    background-color: #E2E2E2;
 
     ul {
       padding: 80px 0;

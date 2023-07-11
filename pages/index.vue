@@ -1,7 +1,5 @@
 <template>
   <div class="container">
-<!--    <img src="@/assets/images/background.jpeg" alt="Background" class="background-image">-->
-    <!-- 其他内容 -->
     <aside-nav-menu/>
     <HomePage/>
     <MiddlePage/>

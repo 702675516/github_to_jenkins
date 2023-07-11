@@ -43,7 +43,6 @@ export default {
   width: 100%;
   height: 2400px;
   background: white;
-  border: 1px solid red;
 
   &-top{
     height: 828px;

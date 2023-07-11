@@ -22,7 +22,6 @@
 
 .homePage{
     width: 100%;
-    border: 1px solid rgb(255, 0, 0);
     height: 1830px;
     position: relative;
     background: url("@/assets/images/230702_星魅网站页面 UPdate-02.png");
