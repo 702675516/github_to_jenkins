@@ -45,8 +45,7 @@
     }
     &-info{
       position: absolute;
-      font-size: 1vw;
-
+      font-size: 1.2vw;
       font-weight: 100;
       line-height: 32px;
       left: 23.5%;
@@ -63,7 +62,7 @@
     &-info{
       position: absolute;
       letter-spacing: 2px;
-      font-size: 1.3vw;
+      font-size: 1.2vw;
       line-height: 32px;
       left: 23.5%;
       top: 26%;
