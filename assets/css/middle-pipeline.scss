@@ -1,0 +1,69 @@
+.pipeline{
+  width: 100%;
+  background: white;
+
+  &-top{
+    position: relative;
+    & > img{
+      width: 100%;
+    }
+    &-info{
+      position: absolute;
+      font-size: 1.2vw;
+      font-weight: 100;
+      line-height: 32px;
+      left: 23.5%;
+      top: 19%;
+      color: rgba(0, 0, 0, 0.75);
+    }
+  }
+
+  &-btm{
+    position: relative;
+    & > img{
+      width: 100%;
+    }
+    &-info{
+      position: absolute;
+      letter-spacing: 2px;
+      font-size: 1.2vw;
+      line-height: 32px;
+      left: 23.5%;
+      top: 26%;
+      color: rgba(0, 0, 0, 0.75);
+    }
+
+    &-box{
+
+      &-h1{
+        font-size: 2.2vw;
+      }
+
+      &>ul{
+        line-height: 30px;
+        position: absolute;
+        font-size: 1.25vw;
+        color: black;
+      }
+
+      & > ul:nth-child(1){
+        left: 23.5%;
+        top: 55%;
+        & > h1{
+          color: #b000b0;
+        }
+      }
+
+      & > ul:nth-child(2){
+        left: 23.5%;
+        position: absolute;
+        top: 76%;
+        & > h1{
+          color: #b000b0;
+          font-size: 23px;
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,48 @@
+.home-page{
+  width: 100%;
+  position: relative;
+  & > img{
+    width: 100%;
+  }
+
+  &-info{
+    position: absolute;
+    font-size: 19px;
+    font-weight: bolder;
+    top: 520px;
+    left: 360px;
+
+    &-text{
+      text-align: justify;
+      text-align-last: justify;
+    }
+
+    ul:nth-child(1){
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1024px) {
+
+  .home-page {
+
+    &-info {
+      font-size: 1.2vw;
+      top: 28%;
+      left: 22.5%;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .home-page {
+
+    &-info {
+      font-size: 1.2vw;
+      top: 28%;
+      left: 22.5%;
+    }
+  }
+}

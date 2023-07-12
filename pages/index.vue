@@ -1,9 +1,9 @@
 <template lang="pug">
 .container
   aside-nav-menu
-  HomePage
-  MiddlePage
-  MiddlePipeline
+  home-page
+  middle-page
+  middle-pipeline
 </template>
 
 <script>
@@ -14,35 +14,10 @@ import MiddlePipeline from "assets/components/middle-pipeline.vue"
   export default{
     components:{
       AsideNavMenu,HomePage,MiddlePage,MiddlePipeline
-    },
+    }
   }
 </script>
 
 <style scoped lang="scss">
-
-.container {
-  position: relative;
-  min-width: 1000px;
-  width: 100%;
-  max-width: 1600px;
-  margin: 0 auto;
-}
-
-.background-image {
-  opacity: 0.3;
-  display: block;
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top:0 ;
-  z-index: 1;
-
-}
-@media screen and (max-width: 1600px) and (min-width: 1024px) {
-  .container {
-    width: 100%;
-    margin: 0 auto;
-
-  }
-}
+@import "assets/css/index";
 </style>
