@@ -25,6 +25,7 @@
         li 拓展业务和投融资
         li 兼任复星集团天津副首代
   img(src="../../assets/images/230702_星魅网站页面-UPdate-04.png")
+  .line#pipeline
 </template>
 
 
@@ -37,6 +38,14 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
+.line{
+  position: absolute;
+  height: 800px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
 .middle-page {
   width: 100%;
   background: white;
@@ -49,6 +58,11 @@ export default {
   &-top {
     position: relative;
     color: black;
+
+    & h1{
+      height: 25px;
+      font-size: 18px;
+    }
 
     & > img {
       width: 100%;
@@ -90,36 +104,38 @@ export default {
   .middle-page {
     &-box {
       left: 34%;
-      top: 24%;
+      top: 24.2%;
     }
 
     &-box-2 {
       left: 34%;
-      top: 60.5%;
+      top: 61.5%;
     }
 
     &-box-3 {
       left: 63.5%;
-      top: 60.5%;
+      top: 61.5%;
     }
   }
 }
+
 
 @media screen and (max-width: 1024px){
   .middle-page {
     &-box {
       left: 34%;
       top: 23%;
+
     }
 
     &-box-2 {
       left: 34%;
-      top: 59.5%;
+      top: 60%;
     }
 
     &-box-3 {
       left: 63.5%;
-      top: 59.5%;
+      top: 60%;
     }
   }
 }

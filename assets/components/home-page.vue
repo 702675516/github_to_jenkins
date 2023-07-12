@@ -1,5 +1,3 @@
-
-
 <template lang="pug">
 .homePage#home
   img(src="../../assets/images/230702_星魅网站页面-UPdate-03.jpg")

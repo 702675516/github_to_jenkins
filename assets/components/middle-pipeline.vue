@@ -1,5 +1,5 @@
 <template lang="pug">
-.pipeline#pipeline
+.pipeline
   .pipeline-top
     img(src="../../assets/images/230702_星魅网站页面-UPdate-05.png")
     .pipeline-top-info
@@ -26,7 +26,6 @@
         li 天津自贸试验区(空港经济区)西五道35号汇津广场4号楼4层425号
         li 电话: 18902106557
         li email: inform@juvestar.com
-
 </template>
 
 

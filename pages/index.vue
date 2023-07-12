@@ -15,21 +15,6 @@ import MiddlePipeline from "assets/components/middle-pipeline.vue"
     components:{
       AsideNavMenu,HomePage,MiddlePage,MiddlePipeline
     },
-    head: {
-      title: 'New',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'SEO'
-        },
-        {
-          hid: 'keywords',
-          name: 'keywords',
-          content: 'A, B'
-        },
-      ]
-    }
   }
 </script>
 
