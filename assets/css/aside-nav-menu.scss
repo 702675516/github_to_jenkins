@@ -34,12 +34,12 @@
         transition: all .4s;
 
         &.active-link {
-          color: palevioletred;
+          color: rgba(164,0,127,1);
         }
       }
 
       & > a:hover {
-        color: palevioletred;
+        color: rgba(164,0,127,1);
       }
     }
 
