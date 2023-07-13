@@ -1,23 +1,25 @@
 *{
     box-sizing: border-box;
+    font-family: "思源黑体", Helvetica,"Microsoft YaHei", Arial, sans-serif;
 }
 
 body{
     overflow-y: scroll;
     background: none;
 }
-
 :root{
     background-color: white;
-    font-family: 'newFont', sans-serif;
 }
 img{
     display: block;
 }
 @font-face {
-    font-family: 'newFont';
-    src: url('assets/font/SOURCEHANSANSCN-MEDIUM.OTF') format('woff2'),
-    url('assets/font/SOURCEHANSANSCN-MEDIUM.OTF') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: '思源黑体';
+    font-display: swap;
+    src: url('//at.alicdn.com/t/webfont_0q82cltaxst.eot'); /* IE9*/
+    src: url('//at.alicdn.com/t/webfont_0q82cltaxst.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//at.alicdn.com/t/webfont_0q82cltaxst.woff2') format('woff2'),
+    url('//at.alicdn.com/t/webfont_0q82cltaxst.woff') format('woff'), /* chrome、firefox */
+    url('//at.alicdn.com/t/webfont_0q82cltaxst.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('//at.alicdn.com/t/webfont_0q82cltaxst.svg#思源黑体-粗') format('svg'); /* iOS 4.1- */
 }
