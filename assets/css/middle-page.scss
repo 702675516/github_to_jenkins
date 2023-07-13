@@ -1,10 +1,11 @@
-.line{
+.line {
   position: absolute;
   height: 800px;
   width: 100%;
   left: 0;
   bottom: 0;
 }
+
 .middle-page {
   width: 100%;
   background: white;
@@ -18,8 +19,8 @@
     position: relative;
     color: black;
 
-    & h1{
-      height: 25px;
+    & h1 {
+      height: 30px;
       font-size: 18px;
     }
 
@@ -29,7 +30,7 @@
     }
 
     &-title {
-      font-size: 16px;
+      font-size: 15px;
       margin: 0;
     }
   }
@@ -64,23 +65,29 @@
   .middle-page {
     &-box {
       left: 34%;
-      top: 24.2%;
+      top: 23.5%;
     }
 
     &-box-2 {
       left: 34%;
-      top: 61.5%;
+      top: 60%;
     }
 
     &-box-3 {
       left: 63.5%;
-      top: 61.5%;
+      top: 60%;
+    }
+
+    &-top {
+      & ul {
+        margin-top: 8px;
+      }
     }
   }
 }
 
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .middle-page {
     &-box {
       left: 34%;
@@ -96,6 +103,12 @@
     &-box-3 {
       left: 63.5%;
       top: 60%;
+    }
+
+    &-top {
+      & ul {
+        margin-top: 0;
+      }
     }
   }
 }
