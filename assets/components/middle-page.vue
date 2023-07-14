@@ -24,7 +24,7 @@
       ul
         li 拓展业务和投融资
         li 兼任复星集团天津副首代
-  img(src="../../assets/images/230702_星魅网站页面-UPdate-04.png")
+  img(src="../../assets/images/230702_星魅网站页面-UPdate-10.jpg")
   .line#pipeline
 </template>
 
