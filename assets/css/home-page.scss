@@ -1,23 +1,28 @@
-.home-page{
+.home-page {
   width: 100%;
   position: relative;
-  & > img{
+
+  @media (max-width: 855px) {
+    display: none;
+  }
+
+  & > img {
     width: 100%;
   }
 
-  &-info{
+  &-info {
     position: absolute;
     font-size: 19px;
     font-weight: bolder;
     top: 520px;
     left: 360px;
 
-    &-text{
+    &-text {
       text-align: justify;
       text-align-last: justify;
     }
 
-    ul:nth-child(1){
+    ul:nth-child(1) {
       margin-bottom: 40px;
     }
   }
@@ -46,3 +51,6 @@
     }
   }
 }
+
+
+

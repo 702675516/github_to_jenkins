@@ -1,0 +1,43 @@
+.aside-nav-m {
+  display: none;
+  position: relative;
+
+  @media (max-width: 855px) {
+    display: block;
+  }
+
+  &-list {
+    height: 100%;
+    top: 0;
+    position: absolute;
+    margin-left: 18%;
+    width: 80%;
+
+    & > ul {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      & > li {
+        font-size: 16px;
+
+        & > a {
+          transition: all .4s;
+
+          &.m-active-link {
+            color: rgba(164, 0, 127, 1);
+          }
+        }
+
+        & > a:hover {
+          color: rgba(164, 0, 127, 1);
+        }
+      }
+    }
+  }
+
+  & > img {
+    width: 100%;
+  }
+}

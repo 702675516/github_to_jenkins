@@ -18,10 +18,17 @@ const activeItem = ref(navList.value[0]);
 let offsetTops = [];
 
 onMounted(() => {
-  offsetTops = navList.value.map(nav => document.querySelector(`#${nav.md}`).offsetParent.offsetTop);
+  if (window.innerWidth < 855){
+    return
+  }
+
+  offsetTops = navList.value.map(nav => {
+    const element = document.querySelector(`#${nav.md}`);
+    return element ? element.offsetParent.offsetTop : 0;
+  });
+
   const handleScroll = () => {
     const scrollTop = document.documentElement.scrollTop;
-
     for (let i = offsetTops.length - 1; i >= 0; i--) {
       if (scrollTop >= offsetTops[i]) {
         activeItem.value = navList.value[i];

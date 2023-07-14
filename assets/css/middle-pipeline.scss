@@ -1,13 +1,18 @@
-.pipeline{
+.pipeline {
   width: 100%;
   background: white;
+  @media (max-width: 855px) {
+    display: none;
+  }
 
-  &-top{
+  &-top {
     position: relative;
-    & > img{
+
+    & > img {
       width: 100%;
     }
-    &-info{
+
+    &-info {
       position: absolute;
       font-size: 1.2vw;
       font-weight: 100;
@@ -18,12 +23,14 @@
     }
   }
 
-  &-btm{
+  &-btm {
     position: relative;
-    & > img{
+
+    & > img {
       width: 100%;
     }
-    &-info{
+
+    &-info {
       position: absolute;
       letter-spacing: 2px;
       font-size: 1.2vw;
@@ -33,37 +40,38 @@
       color: rgba(0, 0, 0, 0.75);
     }
 
-    &-box{
+    &-box {
 
-      &-h1{
+      &-h1 {
         font-size: 2.2vw;
       }
 
-      &>ul{
+      & > ul {
         line-height: 30px;
         position: absolute;
         font-size: 1.25vw;
         color: black;
       }
 
-      & > ul:nth-child(1){
+      & > ul:nth-child(1) {
         left: 23.5%;
         top: 55%;
-        & > h1{
-          color: rgba(164,0,127,1);
+
+        & > h1 {
+          color: rgba(164, 0, 127, 1);
         }
       }
 
-      & > ul:nth-child(2){
+      & > ul:nth-child(2) {
         left: 23.5%;
         position: absolute;
         top: 76%;
-        & > h1{
-          color: rgba(164,0,127,1);
+
+        & > h1 {
+          color: rgba(164, 0, 127, 1);
           font-size: 23px;
         }
       }
     }
-
   }
 }

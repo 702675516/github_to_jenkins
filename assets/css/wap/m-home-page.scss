@@ -1,0 +1,51 @@
+.home-page-m {
+  display: none;
+  position: relative;
+
+  @media (max-width: 855px) {
+    display: block;
+  }
+
+  & > img {
+    width: 100%;
+  }
+
+  &-info {
+    position: absolute;
+    font-weight: bolder;
+    top: 28%;
+    left: 12%;
+    font-size: 12px;
+    line-height: 1.1;
+
+    &-text {
+      text-align: justify;
+      text-align-last: justify;
+    }
+
+    ul:nth-child(1) {
+      margin-bottom: 20px;
+    }
+  }
+  &-title{
+    color: black;
+    font-weight: bolder;
+    font-size: 12px;
+    position: absolute;
+    z-index: 999;
+  }
+  &-title-1 {
+    left: 20%;
+    bottom:25%;
+  }
+
+  &-title-2 {
+    left: 20%;
+    bottom:15%;
+  }
+
+  &-title-3 {
+    left: 20%;
+    bottom:5%;
+  }
+}

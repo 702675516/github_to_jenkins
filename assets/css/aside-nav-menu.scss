@@ -7,6 +7,10 @@
   top: 50%;
   color: black;
 
+  @media (max-width: 855px) {
+    display: none;
+  }
+
   &-logo {
     display: flex;
     align-items: center;
@@ -34,12 +38,12 @@
         transition: all .4s;
 
         &.active-link {
-          color: rgba(164,0,127,1);
+          color: rgba(164, 0, 127, 1);
         }
       }
 
       & > a:hover {
-        color: rgba(164,0,127,1);
+        color: rgba(164, 0, 127, 1);
       }
     }
 
@@ -53,3 +57,5 @@
     }
   }
 }
+
+

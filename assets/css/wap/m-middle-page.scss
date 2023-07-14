@@ -1,0 +1,63 @@
+.line {
+  position: absolute;
+  height: 350px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.middle-page-m {
+  width: 100%;
+  position: relative;
+  display: none;
+
+  @media (max-width: 855px) {
+    display: block;
+  }
+
+  & > img {
+    width: 100%;
+  }
+
+  &-team {
+    color: black;
+    position: relative;
+    line-height: 1.5;
+
+    & > img {
+      width: 100%;
+    }
+
+    &-box {
+      position: absolute;
+      top: 68.5%;
+      left: 40%;
+
+
+      &-title {
+        margin: 0;
+        font-size: 12px;
+
+      }
+
+      & > ul {
+        font-size: 12px;
+
+        & > li {
+          color: rgba(0, 0, 0, 0.8);
+        }
+      }
+    }
+
+    &-box:nth-child(2) {
+      top: 18%;
+      left: 40%;
+    }
+
+    &-box:nth-child(3) {
+      top: 43%;
+      left: 40%;
+
+    }
+  }
+}
