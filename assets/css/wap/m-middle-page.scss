@@ -27,37 +27,5 @@
     & > img {
       width: 100%;
     }
-
-    &-box {
-      position: absolute;
-      top: 68.5%;
-      left: 40%;
-
-
-      &-title {
-        margin: 0;
-        font-size: 12px;
-
-      }
-
-      & > ul {
-        font-size: 12px;
-
-        & > li {
-          color: rgba(0, 0, 0, 0.8);
-        }
-      }
-    }
-
-    &-box:nth-child(2) {
-      top: 18%;
-      left: 40%;
-    }
-
-    &-box:nth-child(3) {
-      top: 43%;
-      left: 40%;
-
-    }
   }
 }

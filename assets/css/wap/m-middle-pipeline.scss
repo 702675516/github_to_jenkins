@@ -5,78 +5,7 @@
     display: block;
   }
 
-  & > img {
+  & img {
     width: 100%;
-  }
-
-  &-header {
-    & > img {
-      width: 100%;
-    }
-
-    &-info {
-      font-size: 12px;
-
-      & > ul {
-        position: absolute;
-        top: 5%;
-        left: 17%;
-        color: black;
-        line-height: 1.4;
-      }
-    }
-  }
-
-  &-middle {
-    position: relative;
-
-    & > img {
-      width: 100%;
-    }
-
-    &-info {
-      font-size: 12px;
-
-      & > ul {
-        position: absolute;
-        top: 60%;
-        left: 17%;
-        color: black;
-        line-height: 1.4;
-      }
-    }
-  }
-
-  &-btm {
-    position: relative;
-
-    & > img {
-      width: 100%;
-    }
-
-    &-info {
-      font-size: 12px;
-
-      & > ul {
-        position: absolute;
-        color: black;
-        line-height: 1.4;
-      }
-
-      & > ul:nth-child(1) {
-        top: 15%;
-        left: 10%;
-      }
-
-      & > ul:nth-child(2) {
-        top: 40%;
-        left: 10%;
-      }
-
-      &-h1 {
-        color: rgba(164, 0, 127, 1);
-        font-size: 23px;
-      }
-    }
   }
 }

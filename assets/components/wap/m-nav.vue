@@ -17,7 +17,6 @@ onMounted(() => {
     return element ? element.offsetParent.offsetTop : 0;
   });
   const handleScroll = function () {
-    console.log(this.scrollTop);
     for (let i = offsetTops.length - 1; i >= 0; i--) {
       if (this.scrollTop >= offsetTops[i]) {
         activeItem.value = navList.value[i];
