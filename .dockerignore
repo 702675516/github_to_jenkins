@@ -1,0 +1,15 @@
+.git
+.DS_Store
+.dockerignore
+Dockerfile
+node_modules
+assets
+pages
+public
+.gitignore
+.npmrc
+.nvmrc
+nuxt.config.ts
+pipeline.yml
+README.md
+tsconfig.json
